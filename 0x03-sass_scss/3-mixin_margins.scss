@@ -1,0 +1,11 @@
+@mixin mar($InlineMargin){
+    margin-left: $InlineMargin;
+    margin-right: $InlineMargin;
+}
+
+body{
+    @include mar(10px)
+}
+div{
+    @include mar(15px)
+}
